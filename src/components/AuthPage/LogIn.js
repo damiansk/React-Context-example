@@ -1,7 +1,8 @@
-import React, { useContext, useState, useCallback } from 'react';
+import React, { useContext } from 'react';
 import { Form, Segment, Button } from 'semantic-ui-react';
 import LanguageContext from '../../contexts/LanguageContext';
 import AuthContext from '../../contexts/AuthContext';
+import useInput from '../../hooks/useInput';
 import languages from '../../languages';
 
 const texts = {
@@ -17,24 +18,16 @@ const texts = {
   },
 }
 
-const useInput = () => {
-  const [value, setValue] = useState('');
-
-  return [value, event => setValue(event.target.value)];
-}
-
 const LogIn = () => {
+  const { language } = useContext(LanguageContext);
+  const { logIn } = useContext(AuthContext);
+  
+  const { emailText, passwordText, loginText } = texts[language];
+  
   const [mail, setMail] = useInput(''); 
   const [password, setPassword] = useInput(''); 
 
-  const { language } = useContext(LanguageContext);
-  const { logIn } = useContext(AuthContext);
-
-  const handleLogInClick = useCallback(() => {
-    logIn(mail, password);
-  }, [mail, password, logIn]);
-
-  const { emailText, passwordText, loginText } = texts[language];
+  const handleLogInClick = () => logIn(mail, password);
 
   return ( 
     <Form size='large'>

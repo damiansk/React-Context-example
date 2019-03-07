@@ -1,4 +1,4 @@
 export default {
-  english: Symbol('us'),
-  icelandic: Symbol('is'),
+  english: 'us',
+  icelandic: 'is',
 }
