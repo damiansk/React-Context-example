@@ -2,7 +2,7 @@ import React from 'react';
 import { Header, Image } from 'semantic-ui-react';
 import LogIn from './LogIn';
 import LanguageContext from '../../contexts/LanguageContext';
-import logo from '../../logo.svg';
+import logo from './react.png';
 import languages from '../../languages';
 
 const headerText = {
