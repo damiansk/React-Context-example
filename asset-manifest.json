@@ -1,16 +1,12 @@
 {
-  "main.js": "/React-Context-example/static/js/main.0e7716ce.chunk.js",
-  "main.js.map": "/React-Context-example/static/js/main.0e7716ce.chunk.js.map",
+  "main.js": "/React-Context-example/static/js/main.f289ce25.chunk.js",
+  "main.js.map": "/React-Context-example/static/js/main.f289ce25.chunk.js.map",
   "runtime~main.js": "/React-Context-example/static/js/runtime~main.3fff807e.js",
   "runtime~main.js.map": "/React-Context-example/static/js/runtime~main.3fff807e.js.map",
-  "static/css/2.380c3187.chunk.css": "/React-Context-example/static/css/2.380c3187.chunk.css",
-  "static/js/2.20d2d855.chunk.js": "/React-Context-example/static/js/2.20d2d855.chunk.js",
-  "static/js/2.20d2d855.chunk.js.map": "/React-Context-example/static/js/2.20d2d855.chunk.js.map",
+  "static/js/2.1d0bf3da.chunk.js": "/React-Context-example/static/js/2.1d0bf3da.chunk.js",
+  "static/js/2.1d0bf3da.chunk.js.map": "/React-Context-example/static/js/2.1d0bf3da.chunk.js.map",
   "index.html": "/React-Context-example/index.html",
-  "precache-manifest.63ff02ce35249bc5ecee4bba14183e52.js": "/React-Context-example/precache-manifest.63ff02ce35249bc5ecee4bba14183e52.js",
+  "precache-manifest.af79e797b16a180fbc0c81e9de6fcbf0.js": "/React-Context-example/precache-manifest.af79e797b16a180fbc0c81e9de6fcbf0.js",
   "service-worker.js": "/React-Context-example/service-worker.js",
-  "static/css/2.380c3187.chunk.css.map": "/React-Context-example/static/css/2.380c3187.chunk.css.map",
-  "static/media/semantic.min.css": "/React-Context-example/static/media/outline-icons.ef60a4f6.woff",
-  "static/media/logo.svg": "/React-Context-example/static/media/logo.ee7cd8ed.svg",
   "static/media/matthew.png": "/React-Context-example/static/media/matthew.046e91f7.png"
 }
