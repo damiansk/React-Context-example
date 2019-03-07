@@ -3,6 +3,7 @@ import { Card, Image,  Button } from 'semantic-ui-react';
 import AuthContext from '../../contexts/AuthContext';
 import LanguageContext from '../../contexts/LanguageContext';
 import languages from '../../languages';
+import image from './matthew.png'
 
 const texts = {
   [languages.english]: {
@@ -23,7 +24,7 @@ const UserPage = () => {
   
   return (
     <Card>
-      <Image src='/matthew.png' />
+      <Image src={image} />
       <Card.Content>
         <Card.Header>{user.firstName}</Card.Header>
         <Card.Meta>
